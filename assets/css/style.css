@@ -1,8 +1,25 @@
-.afacad-flux-.treeContainer {
-                  font-family: "Afacad Flux", sans-serif;
-                  font-optical-sizing: auto;
-                  font-weight: 100;
-                  font-style: normal;
-                  font-variation-settings:
-                          "slnt" 0;
-              }
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+.treeContainer {
+    font-family: "Afacad Flux", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.treeContainer > article {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 1.5%;
+
+}
+
+
+
+h1, footer {
+    font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+}
+
