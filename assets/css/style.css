@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
-
 }
 
 .treeContainer > article, img {
@@ -14,11 +13,7 @@
     text-align: center;
     padding: 1.5%;
     width: 25%;
-
-
 }
-
-
 
 h1, footer {
     font-family: "Afacad Flux", sans-serif;
